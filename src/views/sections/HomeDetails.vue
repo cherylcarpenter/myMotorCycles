@@ -58,7 +58,7 @@ export default {
         selectedBike: Number,
     },
     methods: {
-        onClick(index) {
+        onClick() {
             EventBus.$emit('hideDetails');
         },
     },

@@ -45,9 +45,8 @@ export default {
         };
     },
     created() {
-        EventBus.$on('showDetails', (index) => {
+        EventBus.$on('showDetails', () => {
             this.showBikeDetails = true;
-
         });
         EventBus.$on('hideDetails', () => {
             this.showBikeDetails = false;
