@@ -1,4 +1,7 @@
 # website
+deploys to 
+https://trusting-engelbart-34df85.netlify.app/
+
 
 ## Project setup
 ```
